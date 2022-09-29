@@ -6,25 +6,26 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #359C62   ;
+  --secondary-color: #2713F3 ;
+  --accent1-color: #EC9D66;
+  --accent2-color: #DDFB9F;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "sans-serif"
+  --paragraph-font: Courier New (monospace), Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --primary-color: #359C62   ;
+  --headline-color-on-white: ;  /* headlines on a white background */ 
+  --headline-color-on-color: #DDFB9F; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #2713F3; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #DDFB9F; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #2713F3  ;
+  --nav-link-color: #359C62;
+  --nav-background-color: #EC9D66;
+  --nav-hover-link-color: #EC9D66;
+  --nav-hover-background-color: #359C62;
 }
 
 
@@ -82,10 +83,10 @@ p {
   height: 3em;
 }
 .primary {
-  background-color: var(--primary-color);
+  background-color: var(--primary-color); 
 }
 .secondary {
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-color); [#359C62]
 }
 .accent1 {
   background-color: var(--accent1-color);

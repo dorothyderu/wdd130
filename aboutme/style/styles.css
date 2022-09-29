@@ -16,11 +16,18 @@ body {
     width: 800px;
     border: 4px solid steelblue;
   }
-  p {
+  p {class='main-para
     padding: 10px;
   }
   footer {
     background-color: steelblue;
     color: white;
   }
-  
+  .main-para {
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+  background-color: white;
+  color: steelblue;
+}
