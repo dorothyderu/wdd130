@@ -1,0 +1,15 @@
+body {
+    margin: 0%;
+    background-color: grey;
+    color: grey;
+}
+#title{
+    width: 100%;
+}
+#desk, #person, #graphic {
+    border-radius: 100%;
+    text-align: center;
+    background-color:#5A5A5A;
+    padding: 10px;
+    margin: 4%;
+}
