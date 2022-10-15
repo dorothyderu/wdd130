@@ -104,11 +104,13 @@ background-color: #2713F3;
     main section img {
         box-sizing: border-box;
     }
+  
  footer{
     background-color: #EC9D66;
     font-size: 1.2em;
     padding: 25px 50px;
     margin-top: 200px;
+    text-align: left;
  }
  footer p{
     font-size: 1.2em;
