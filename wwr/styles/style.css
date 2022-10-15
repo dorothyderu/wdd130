@@ -3,13 +3,34 @@ Author: Dorothy Deru
 Date: October 10 2022
 Purpose: to add style to my white water rafting site
 */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    font-family: Courier 'Courier New', Courier, monospace;;
 }
 body {
     background-color: #DDFB9F;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.home-title {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2em;
+}
+h2{ 
+margin: 0;
+}
+.msg h2 {
+font-family: Arial, Helvetica, sans-serif;
+}
+.book, .join {
+    font-size: 18px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 header {
     background-color: #EC9D66;
@@ -23,6 +44,7 @@ nav a{
     text-align: center;
     color: #359C62;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
 text-align: center;
@@ -32,6 +54,9 @@ color: #2713F3;
         background-color: #359C62;
         color: aquamarine;
         text-decoration: none;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
 }
     .book:hover, .join:hover {
         background-color: #359C62;
@@ -51,19 +76,39 @@ background-color: #2713F3;
         width: 80px;
         background-color: #EC9D66;
  }
- .msg h2, .msg p {
+ .msg h2, .msg p, {
     background-color: #359C62;
     color: aquamarine;
+    line-height: 1.5em
+}
+.msg{
+    padding: 35px;
 }
     .icon{
         width: 80px;
+        padding-top: 10px;
+    }
+    #logolink {
+        padding-top: 5px;
     }
     .home-title{
             color: #DDFB9F;
+            margin-top: 10px;
+    }
+    .rivers-card, .camping-card, .rapids-card {
+        margin: 200px 0;
+    }
+    .card-img {
+        border: 10px solid #000000;
+    }
+    main section img {
+        box-sizing: border-box;
     }
  footer{
     background-color: #EC9D66;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
  }
  footer p{
     font-size: 1.2em;
@@ -75,4 +120,7 @@ background-color: #2713F3;
   }
   footer a:hover {
     color: #DDFB9F;
+  }
+  footer .social img {
+    padding-top: 15px;
   }

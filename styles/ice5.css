@@ -6,10 +6,13 @@ body {
 #title{
     width: 100%;
 }
-#desk, #person, #graphic {
+#desk, #graphic, #person {
     border-radius: 100%;
     text-align: center;
     background-color:#5A5A5A;
     padding: 10px;
     margin: 4%;
+}
+.circular {
+    text-align: center;
 }
