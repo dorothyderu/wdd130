@@ -10,7 +10,7 @@ Purpose: to add style to my white water rafting site
     font-family: Courier 'Courier New', Courier, monospace;;
 }
 body {
-    background-color: #DDFB9F;
+    background-color: #889bae;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -33,25 +33,25 @@ font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 15px;
 }
 header {
-    background-color: #EC9D66;
+    background-color: #a0522d;
     text-align: center;
 }
 nav a:hover {
-    background-color: #2713F3;
+    background-color: #F5F5F5;
     color: aliceblue;
 }
 nav a{
     text-align: center;
-    color: #359C62;
+    color: #254117;
     text-decoration: none;
     padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
 text-align: center;
-color: #2713F3;
+color: #F5F5F5;
 }
     .book, .join {
-        background-color: #359C62;
+        background-color: #254117;
         color: aquamarine;
         text-decoration: none;
         padding: 15px 30px;
@@ -59,7 +59,7 @@ color: #2713F3;
         border-radius: 5px;
 }
     .book:hover, .join:hover {
-        background-color: #359C62;
+        background-color: #254117;
         color: aquamarine;
 }
     .button-box{
@@ -70,11 +70,11 @@ main section{
     }
 #background {
 height: 725px;
-background-color: #2713F3;
+background-color: #F5F5F5;
 }
     .logo{
         width: 80px;
-        background-color: #EC9D66;
+        background-color: #a0522d;
  }
  .msg h2, .msg p, {
     background-color: #359C62;
@@ -106,7 +106,7 @@ background-color: #2713F3;
     }
   
  footer{
-    background-color: #EC9D66;
+    background-color: #a0522d;
     font-size: 1.2em;
     padding: 25px 50px;
     margin-top: 200px;
@@ -117,11 +117,11 @@ background-color: #2713F3;
     text-decoration: underline;
  }
   footer a {
-    color: #2713F3;
+    color: #F5F5F5;
     text-decoration: none;
   }
   footer a:hover {
-    color: #DDFB9F;
+    color: #889bae;
   }
   footer .social img {
     padding-top: 15px;
