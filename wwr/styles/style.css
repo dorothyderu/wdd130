@@ -74,10 +74,10 @@ nav a{
     grid-row: 1/2;
     margin-top: 100px;
 }
-#hero-msg h4 {
+#hero-msg h4, h5, h6 {
     color: white;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1, #hero-msg h4, , h6 {
 text-align: center;
 color: #F5F5F5;
 }
@@ -237,7 +237,7 @@ background-color: #F5F5F5;
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h4, h5, h6 {
         display: none;
     }
     .home-title {
