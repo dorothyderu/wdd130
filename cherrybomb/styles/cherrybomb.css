@@ -24,10 +24,12 @@ body {
 
     header {
         display: grid;
-        grid-template-columns: 150px auto;
+        grid-template-columns: 1fr 1fr;
         background-color: #E2F4FD;
     }
     nav {
         display: flex;
         justify-content: space-around;
+        width: 100%;
+        grid-column: 1/3;
     }
