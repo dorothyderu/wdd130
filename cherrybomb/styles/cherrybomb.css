@@ -1,0 +1,33 @@
+/*
+Author: Dorothy Deru
+Date: November 29 2022
+Purpose: to add style to personal site
+*/
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: Courier, 'Courier New', Courier, monospace;
+}
+body {
+    background-color: #BD0D6D;
+    text-align: center;
+    font-size: 22px;
+    padding: 0;
+    margin: 0; }
+  
+ .home-title {
+    font: "IM Fell French Canon SC";
+    font-size: 2em;
+    margin-top: 10px;
+    color: #FA1363; }
+
+    header {
+        display: grid;
+        grid-template-columns: 150px auto;
+        background-color: #E2F4FD;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
