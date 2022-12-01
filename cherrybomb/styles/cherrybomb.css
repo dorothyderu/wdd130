@@ -51,3 +51,9 @@ body {
         text-decoration: none;
         padding: 35px;
     }
+.container {
+    width: 60%;
+}
+.social {
+    width: 10%;
+}
