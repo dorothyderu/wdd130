@@ -51,3 +51,11 @@ body {
         text-decoration: none;
         padding: 35px;
     }
+    .about-me {
+        text-align: left;
+        margin-left: 15%;
+    }
+    .me-para {
+        text-align: right;
+        margin-right: 15%;
+    }
