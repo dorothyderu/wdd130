@@ -51,3 +51,12 @@ body {
         text-decoration: none;
         padding: 35px;
     }
+    .clothes img {
+        width: 25%;
+    }
+    #logo_link img {
+        width: 15%;
+    }
+    .social img {
+        width: 10%;
+    }

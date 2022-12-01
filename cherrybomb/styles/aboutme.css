@@ -59,3 +59,12 @@ body {
         text-align: right;
         margin-right: 15%;
     }
+    .social img {
+        width: 10%;
+    }
+    .about-me img {
+        width: 25%;
+    }
+    #logo_link img {
+        width: 15%;
+    }
