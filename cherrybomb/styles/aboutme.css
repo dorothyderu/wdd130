@@ -52,19 +52,28 @@ body {
         padding: 35px;
     }
     .about-me {
-        text-align: left;
-        margin-left: 15%;
+        margin: auto;
     }
     .me-para {
-        text-align: right;
-        margin-right: 15%;
+        margin: auto;
+        color: #BD0D6D;
+        max-width: 500px;
+        padding: 5px;
+        line-height: 2em; 
+        font-size: 100%;
+
     }
     .social img {
         width: 10%;
     }
     .about-me img {
-        width: 25%;
+        width: 55%;
     }
     #logo_link img {
         width: 15%;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
     }
